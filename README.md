@@ -5,4 +5,7 @@
  
 ___
 
-[REACT 공식 사이트]("https://ko.reactjs.org" "리액트 공식 사이트")
+[REACT 공식 사이트](https://ko.reactjs.org "리액트 공식 사이트")
+
+# MVC패턴이란:question:
+Model-View-Controller의 약자
