@@ -38,3 +38,15 @@ Model-View-Controller의 약자
 - componentWillUnmount : 설정한 이벤트, 컴포넌트를 없앨 때.
 
 - componentDidCatch : 에러 처리, 에러가 발생할 수 있는 컴포넌트의 부모 컴포넌트에서 사용.
+
+# 크로스 브라우징 ie11과 호환❕
+**1. react-app-polyfill 설치**
+- npm install react-app-polyfill
+- yarn add react-app-polyfill**
+
+**node_modules/.cache 삭제**
+- package.json browserslist > development 에 ie 11 추가
+
+**index.js 최상단 구문 추가**
+- import 'react-app-polyfill/ie11';
+- import 'react-app-polyfill/stable';
